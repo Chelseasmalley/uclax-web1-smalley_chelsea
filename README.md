@@ -1,6 +1,7 @@
 # UCLAX Web 1 Project
 
-7:28
+7:32
+7:34
 
 This resource is a starter project for students in the UCLAX Web 1 course.
 
