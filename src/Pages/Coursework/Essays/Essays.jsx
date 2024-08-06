@@ -79,21 +79,30 @@ const Essays = () => {
                     </li>
                 </ul>
             </SingleEssay>
+
             <SingleEssay
-                question={`What is the difference between front-end and back-end development?`}
+                question={`In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?
+`}
             >
                 <ul>
                     <li>
-                        Front end developers employ the graphics that users
-                        interact with, like buttons, checkboxes, etc. This is
-                        the part of a website that users see and interact with.
-                        Front end uses HTML, CSS, and JS
+                        -Absolute hyperlinks are complete addresses that contain
+                        all the elements of a URL -only method that allows you
+                        to link to files found on another domain (or subdomain)
                     </li>
                     <li>
-                        Back end is the data, infrastructure, and security that
-                        make your application work; the "server side," that
-                        retrieves data. Programs used by back-end developers are
-                        NodeJS, Python, Django, and many more.
+                        relative to the current domain or location allows your
+                        code to be more transferrable, more flexible only
+                        putting the part of the path which is Relative to the
+                        current path
+                    </li>
+                    <li>
+                        subset of relative hyperlinks in which all the links are
+                        assumed to start from the root folder (domain name) of
+                        the site allows you to transfer your code to any domain
+                        in the way that you could with Relative Paths, but
+                        removes the confusion of finding the file when you have
+                        complex directory structures
                     </li>
                 </ul>
             </SingleEssay>
