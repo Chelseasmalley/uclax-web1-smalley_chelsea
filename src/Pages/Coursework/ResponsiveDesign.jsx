@@ -34,7 +34,7 @@ const ResponsiveDesignStyled = styled.div`
         font-size: 50px;
         text-align: center;
         color: white;
-        background-color: teal;
+        background-color: #859bf5;
         margin: 10px;
     }
     .box2 {

@@ -106,6 +106,66 @@ const Essays = () => {
                     </li>
                 </ul>
             </SingleEssay>
+            <SingleEssay
+                question={
+                    "Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps."
+                }
+            >
+                <ul>
+                    <li>
+                        -Product Manager-focuses on the vision for a product or
+                        service. They set the strategy and roadmap for the
+                        product, working with cross-functional teams to define
+                        and execute its success. They guide teams through the
+                        product lifestyle. They serve as liaison between
+                        business, technology, and design teams. They understand
+                        market trends and user goals, collab with shareholders,
+                        and own the product goals.
+                    </li>
+                    <li>
+                        Scrum Master: Scrum is a simple Agile framework. The
+                        scrum team is a small group the works in “sprints.”
+                        Scrum Masters use soft skills to coach and mentor
+                        members of the Scrum Team and others in the
+                        organization. Scrum Masters are accountable for helping
+                        their teams succeed, and that often means offering them
+                        assistance in groups or on a one-on-one basis
+                    </li>
+                    <li>
+                        UX Designer: Creates products that provide meaningful
+                        and relevant experiences to users. User experience (UX)
+                        designers work to optimize the interaction between
+                        humans and products. They interview target demographics
+                        and ensure the product works for them. They create user
+                        interface, which button goes where, the wire frames, the
+                        click through.
+                    </li>
+                    <li>
+                        Developer/Engineer: Writes code using programming
+                        languages, builds software components, and tests their
+                        designs. Software developers use programming and design
+                        knowledge to build software that meets the needs of
+                        users. Typically, they will meet with the product
+                        manager who has a need for software to be developed, and
+                        then will build, test and deploy that software based on
+                        the specifications they have received.
+                    </li>
+                    <li>
+                        -QA/SDET: Combines software development with testing to
+                        ensure software quality. Originating from innovative
+                        tech practices, SDETs design automated testing
+                        frameworks, develop test cases, and write code to
+                        enhance software testability -Devops:Designs,
+                        implements, and maintains tools and processes for
+                        continuous integration, delivery, and deployment of
+                        software. They work closely with developers, testers,
+                        and system administrators to ensure the entire software
+                        development life cycle is smooth, efficient, and
+                        error-free. Automates and integrates the processes
+                        between software development and IT teams .
+                    </li>
+                </ul>
+            </SingleEssay>
         </EssaysStyled>
     );
 };

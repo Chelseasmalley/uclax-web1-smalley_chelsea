@@ -1,33 +1,33 @@
-import slide1 from './img/Core-Strength.jpg';
-import slide2 from './img/Staff-In-Action.jpg';
-import slide3 from './img/Senior.jpg';
-import slide4 from './img/Group-Picture.jpg';
-import slide5 from './img/Aerial-Open-Gym.jpg';
+import slide2 from "./img/Madamn-SpellingBee.jpg";
+import slide3 from "./img/FirstShow.jpg";
+import slide4 from "./img/DatingDrag.jpg";
+import slide5 from "./img/WankAWeen.jpg";
+import slide1 from "./img/Wedding.jpeg";
 
 export const slidesData = [
     {
         id: 1,
         image: slide1,
-        title: 'Core Strength',
+        title: "Fairy Tale Wedding",
     },
     {
         id: 2,
         image: slide2,
-        title: 'Staff In Action',
+        title: "Spelling Bee Fundraiser",
     },
     {
         id: 3,
         image: slide3,
-        title: 'Senior',
+        title: "Very First Show",
     },
     {
         id: 4,
         image: slide4,
-        title: 'Group Picture',
+        title: "Dating's A Drag",
     },
     {
         id: 5,
         image: slide5,
-        title: 'Aerial Open Gym',
+        title: "Wank A Ween",
     },
-]
+];

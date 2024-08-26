@@ -50,7 +50,7 @@ const SmallStyled = styled.div`
 
         z-index: 100;
 
-        background-color: #034444;
+        background-color: #859bf5;
 
         a {
             display: block;
@@ -64,7 +64,7 @@ const SmallStyled = styled.div`
             &:hover,
             &:active,
             &:focus {
-                background-color: #002a2a;
+                background-color: #859bf5;
             }
         }
     }
