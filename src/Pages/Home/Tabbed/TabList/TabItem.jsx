@@ -23,7 +23,7 @@ TabItem.propTypes = {
 
 const TabItemStyled = styled.div`
     background-color: #fb3dbf;
-    color: #17b1b1;
+    color: #ca1f6c;
     text-align: center;
     cursor: pointer;
     border-radius: 5px 5px 0px 0px;
