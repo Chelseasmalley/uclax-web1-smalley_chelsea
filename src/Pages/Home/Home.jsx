@@ -11,7 +11,11 @@ const Home = () => {
             <h1>Home</h1>
             <Slideshow />
             <Inset>
-                <ReactPlayer url="https://www.youtube.com/watch?v=AaiTV8yxQ0A" />
+                <div>
+                    <center>
+                        <ReactPlayer url="https://www.youtube.com/watch?v=AaiTV8yxQ0A" />
+                    </center>
+                </div>
             </Inset>
             <Inset>
                 <Tabbed />
