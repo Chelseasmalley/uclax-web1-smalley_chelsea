@@ -13,7 +13,7 @@ const Home = () => {
             <Inset>
                 <div>
                     <center>
-                        <ReactPlayer url="https://www.youtube.com/watch?v=AaiTV8yxQ0A" />
+                        <ReactPlayer url="https://www.youtube.com/watch?v=fL_l00D9Qyw" />
                     </center>
                 </div>
             </Inset>
